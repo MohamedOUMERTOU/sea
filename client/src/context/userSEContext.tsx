@@ -1,5 +1,6 @@
 import React, { createContext, Dispatch, FC, ReactNode, SetStateAction, useState, useContext } from "react";
-import { Action, MenuItem, User ,Metadata} from "./Types";
+import { Action, MenuItem, Metadata, User } from "./Types";
+
 
 interface SEContextType {
   users: User[];

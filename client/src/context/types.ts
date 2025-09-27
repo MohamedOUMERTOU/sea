@@ -28,7 +28,7 @@ export interface User {
     idMenu: number;
     icon?: IconKeys;
     nom: string;
-    discription: string;
+    description: string;
     parentId: number;
     subMenus?: MenuItem[];
   }
